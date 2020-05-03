@@ -1,0 +1,13 @@
+{
+  "name": "debitum-data",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc --declaration --outDir dist src/*.ts src/**/*.ts",
+    "watch": "yarn build --watch"
+  },
+  "dependencies": {
+    "mongoose": "^5.9.10",
+    "typescript": "^3.8.3"
+  }
+}

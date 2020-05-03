@@ -1,0 +1,26 @@
+{
+  "name": "debitum-backend",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Backend services for Debitum.",
+  "scripts": {
+    "build": "rm -rf dist && tsc src/server.ts --outDir dist",
+    "watch": "yarn build --watch",
+    "start": "nodemon dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "debitum-data": "^0.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.8.3"
+  }
+}
