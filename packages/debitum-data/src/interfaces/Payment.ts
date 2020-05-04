@@ -4,6 +4,6 @@ export interface Payment {
   dueDate: string;
   repeatInterval: string | null;
   repeatDesignator: string | null;
-  createdAt: Date;
-  updatedAt: Date;
+  createdAt?: Date;
+  updatedAt?: Date;
 };
